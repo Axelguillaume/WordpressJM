@@ -15,8 +15,17 @@
 			</div>
 			<div class="col-lg-2">
 				<div class="rs_footer">
+					<a class="btn btn-block btn-social btn-facebook">
+					    <span class="fa fa-facebook"></span>
+					</a>
 					<a class="btn btn-block btn-social btn-twitter">
-					    <span class="fa fa-twitter"></span> Sign in with Twitter
+					    <span class="fa fa-twitter"></span>
+					</a>
+					<a class="btn btn-block btn-social btn-pinterest">
+					    <span class="fa fa-pinterest"></span>
+					</a>
+					<a class="btn btn-block btn-social btn-instagram">
+					    <span class="fa fa-instagram"></span>
 					</a>
 				</div>
 			</div>
