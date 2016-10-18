@@ -11,9 +11,10 @@
     <link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
     <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="wp-content/themes/Creation_theme/css/style.css" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity=" sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
     <?php wp_head(); ?>   <?php wp_get_archives('type=monthly&format=link'); ?> <?php //comments_popup_script(); <?php wp_head(); ?>
 
@@ -22,9 +23,7 @@
 
     <div id="page">
         <div id="header"> 
-            <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
-            <?php bloginfo('description'); ?>
-        </div>
+
             <nav class="navbar navbar-default navbar-fixed-top">
               <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -35,8 +34,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="#">LOGO</a>
+                  <a class="navbar-brand" href="#"><img src="wp-content/themes/Creation_theme/images/logo_EXE.png" alt="" /></a>
                 </div>
+                <form class="navbar-form navbar-right">
+                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                </form>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -46,12 +51,7 @@
                     <li><a href="#equipe">DIY</a></li>
                     <li><a href="#contact">Contact</a></li>
                   </ul>
-                  <form class="navbar-form navbar-right">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Recherche</button>
-                  </form>
                 </div><!-- /.navbar-collapse -->
               </div><!-- /.container-fluid -->
             </nav>
+        </div>

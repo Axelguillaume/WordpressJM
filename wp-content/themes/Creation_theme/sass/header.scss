@@ -1,0 +1,30 @@
+#header {
+	nav{
+		background: green;
+		border: none;
+		font-size : 20px;
+		padding:10px;
+		height: 140px;
+		li {
+			a{
+			color : black;
+			}
+			&:hover{
+				background-color: grey;
+				transition: all 0.5s;
+				border-radius: 10px;
+			}
+		}
+		.navbar-header {
+			a{
+				color : black;
+				font-weight: 800;
+				img{
+					width: 100px;
+					height: 89px;
+				}	
+			}
+		}
+
+	}
+}

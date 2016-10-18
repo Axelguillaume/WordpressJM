@@ -1,0 +1,27 @@
+#header nav {
+  background: green;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  height: 140px;
+}
+
+#header nav li a {
+  color: black;
+}
+
+#header nav li:hover {
+  background-color: grey;
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+
+#header nav .navbar-header a {
+  color: black;
+  font-weight: 800;
+}
+
+#header nav .navbar-header a img {
+  width: 100px;
+  height: 89px;
+}
