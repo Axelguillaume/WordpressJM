@@ -1,19 +1,20 @@
 #header nav {
-  background: green;
+  background: transparent;
   border: none;
   font-size: 20px;
   padding: 10px;
-  height: 140px;
 }
 
 #header nav li a {
   color: black;
+  margin-bottom: 33px;
+  margin-top: 33px;
 }
 
 #header nav li:hover {
-  background-color: grey;
-  transition: all 0.5s;
-  border-radius: 10px;
+  color: #871642;
+  font-weight: 700;
+  transition: 0.2s;
 }
 
 #header nav .navbar-header a {
@@ -24,28 +25,4 @@
 #header nav .navbar-header a img {
   width: 100px;
   height: 89px;
-}
-
-#footer {
-  background-color: #4d4d4d;
-  margin-top: 500px;
-}
-
-#footer img {
-  width: 75%;
-  margin: 50px 0px 50px 0px;
-}
-
-#footer #menu_footer {
-  margin-top: 90px;
-}
-
-#footer #menu_footer li {
-  display: inline;
-}
-
-#footer #menu_footer li a {
-  text-decoration: none;
-  color: #aaaaaa;
-  margin-right: 40px;
 }

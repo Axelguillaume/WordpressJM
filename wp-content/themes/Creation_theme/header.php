@@ -15,7 +15,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity=" sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
     <?php wp_head(); ?>   <?php wp_get_archives('type=monthly&format=link'); ?> <?php //comments_popup_script(); <?php wp_head(); ?>
 
 </head> 
@@ -37,15 +37,15 @@
                   <a class="navbar-brand" href="#"><img src="wp-content/themes/Creation_theme/images/logo_EXE.png" alt="" /></a>
                 </div>
                 <form class="navbar-form navbar-right">
-                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    <button type="submit" class="btn"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Search">
+                    <input type="text" class="form-control" placeholder="Search">
                     </div>
                 </form>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav navbar-right">
+                  <ul class="nav navbar-nav navbar-left">
                     <li><a href="#header">Accueil</a></li>
                     <li><a href="#skill">Qui sommes nous?</a></li>
                     <li><a href="#equipe">DIY</a></li>

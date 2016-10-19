@@ -1,18 +1,19 @@
 #header {
 	nav{
-		background: green;
+		background: transparent;
 		border: none;
 		font-size : 20px;
 		padding:10px;
-		height: 140px;
 		li {
 			a{
 			color : black;
+			margin-bottom: 33px;
+			margin-top: 33px;
 			}
 			&:hover{
-				background-color: grey;
-				transition: all 0.5s;
-				border-radius: 10px;
+			color: #871642;
+			font-weight: 700;
+			transition: 0.2s;
 			}
 		}
 		.navbar-header {
@@ -23,6 +24,14 @@
 					width: 100px;
 					height: 89px;
 				}	
+			}
+		}
+		.navbar-right {
+			margin-bottom: 33px;
+			margin-top: 33px;
+			.btn{
+				background: none !important;
+				font-size: 24px;
 			}
 		}
 
