@@ -25,3 +25,27 @@
   width: 100px;
   height: 89px;
 }
+
+#footer {
+  background-color: #4d4d4d;
+  margin-top: 500px;
+}
+
+#footer img {
+  width: 75%;
+  margin: 50px 0px 50px 0px;
+}
+
+#footer #menu_footer {
+  margin-top: 90px;
+}
+
+#footer #menu_footer li {
+  display: inline;
+}
+
+#footer #menu_footer li a {
+  text-decoration: none;
+  color: #aaaaaa;
+  margin-right: 40px;
+}

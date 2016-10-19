@@ -6,11 +6,11 @@
 			</div>
 			<div class="col-lg-8">
 				<ul id="menu_footer">
-					<li><a href="#"></a>Home</li>
-					<li><a href="#"></a>DIY</li>
-					<li><a href="#"></a>Beauté</li>
-					<li><a href="#"></a>Contact</li>
-					<li><a href="#"></a>Mentions légales</li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">DIY</a></li>
+					<li><a href="#">Beauté</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Mentions légales</a></li>
 				</ul>
 			</div>
 			<div class="col-lg-2">
