@@ -50,7 +50,7 @@
                                   <ul class="nav navbar-nav navbar-left">
                                     <li><a href="index.php">Accueil</a></li>
                                     <li><a href="#skill">Qui sommes nous?</a></li>
-                                    <li><a href="article.php">DIY</a></li>
+                                    <li><a href="article.php">Articles</a></li>
                                     <li><a href="#contact">Contact</a></li>
                                   </ul>
                                 </div><!-- /.navbar-collapse -->
