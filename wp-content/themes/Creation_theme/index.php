@@ -12,5 +12,8 @@
 	<?php get_sidebar(); ?>
 	<?php get_footer(); ?>
 	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="wp-content/themes/Creation_theme/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="wp-content/themes/Creation_theme/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 </body> 
 </html>
