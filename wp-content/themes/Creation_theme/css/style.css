@@ -80,3 +80,34 @@
 .sidebar {
   margin-top: 150px;
 }
+
+.text-center h1 {
+  font-family: 'Calligraffitti', cursive;
+  font-weight: 400;
+  font-size: 50px;
+  color: #871642;
+  margin-top: 20px;
+}
+
+.separation {
+  margin: 50px;
+  width: 100%;
+  padding: 50px 0;
+  background: url(../images/separation.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.separation img {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+.separation h2 {
+  color: #fff;
+}
