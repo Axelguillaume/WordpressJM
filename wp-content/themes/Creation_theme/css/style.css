@@ -78,5 +78,27 @@
 }
 
 .sidebar {
+  margin-left: 40px;
+  width: 15%;
   margin-top: 150px;
+}
+
+.sidebar p {
+  font-size: 18pt;
+  color: white;
+  background-color: #d4bbbb;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin-left: 10px;
+  padding-left: 0;
+  font-size: 15pt;
+}
+
+.sidebar ul li a {
+  color: #b3b3b3;
+  margin: 0 0 50px 0;
 }
