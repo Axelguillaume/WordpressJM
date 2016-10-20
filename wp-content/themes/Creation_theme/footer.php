@@ -12,28 +12,18 @@
 					<li><a href="#">Contact</a></li>
 					<li><a href="#">Mentions légales</a></li>
 				</ul>
+				<p>Copyright &#169; <?php bloginfo('name'); ?>  -  <?php print(date(Y)); ?></p>
 			</div>
 			<div class="col-lg-2">
 				<div class="rs_footer">
-					<a class="btn btn-block btn-social btn-facebook">
-					    <span class="fa fa-facebook"></span>
-					</a>
-					<a class="btn btn-block btn-social btn-twitter">
-					    <span class="fa fa-twitter"></span>
-					</a>
-					<a class="btn btn-block btn-social btn-pinterest">
-					    <span class="fa fa-pinterest"></span>
-					</a>
-					<a class="btn btn-block btn-social btn-instagram">
-					    <span class="fa fa-instagram"></span>
-					</a>
+					<i class="fa fa-twitter"></i>
 				</div>
 			</div>
 		</div>
 	</div>
 
 
- <!-- <p> Copyright &#169; <?php print(date(Y)); ?> <?php bloginfo('name'); ?> <br />
+<!--  <p> Copyright &#169; <?php print(date(Y)); ?> <?php bloginfo('name'); ?> <br />
   Blog propulsé par 
   <a href="http://wordpress.org/">WordPress</a> et con&ccedil;u par 
   <a href="http://www.fran6art.com">Fran6art</a> <br /> 
