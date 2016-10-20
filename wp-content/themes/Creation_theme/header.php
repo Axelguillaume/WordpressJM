@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="wp-content/themes/Creation_theme/css/style.css" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity=" sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="/wp-content/themes/Creation_theme/font-awesome.min.css">
+    <link rel="stylesheet" href="wp-content/themes/Creation_theme/font-awesome-4.6.3/css/font-awesome.min.css">
+    
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
     <?php wp_head(); ?>   <?php wp_get_archives('type=monthly&format=link'); ?> <?php //comments_popup_script(); <?php wp_head(); ?>
 
