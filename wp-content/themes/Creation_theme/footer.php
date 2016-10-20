@@ -4,7 +4,7 @@
 			<div class="col-lg-2">
 				<img id="logo_footer" src="wp-content/themes/Creation_theme/images/logo_footer.png">
 			</div>
-			<div class="col-lg-8">
+			<div class="col-lg-7">
 				<ul id="menu_footer">
 					<li><a href="#">Home</a></li>
 					<li><a href="#">DIY</a></li>
@@ -14,9 +14,12 @@
 				</ul>
 				<p>Copyright &#169; <?php bloginfo('name'); ?>  -  <?php print(date(Y)); ?></p>
 			</div>
-			<div class="col-lg-2">
+			<div class="col-lg-3">
 				<div class="rs_footer">
-					<i class="fa fa-twitter"></i>
+					<i class="fa fa-facebook fa-3x"></i>
+					<i class="fa fa-twitter fa-3x"></i>
+					<i class="fa fa-pinterest fa-3x"></i>
+					<i class="fa fa-instagram fa-3x"></i>
 				</div>
 			</div>
 		</div>
