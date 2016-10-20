@@ -1,7 +1,6 @@
 <div class="sidebar"> 
+	<p>Catégories</p>    
 	<ul>
-		<li><h2>Categories</h2>  
-		<ul> <?php wp_list_cats('sort_column=name&optioncount=1&hierarchical=0'); ?> </ul> 
-		</li>
-	</ul>
+		<?php wp_list_cats('sort_column=name&optioncount=1&exclude=1'); ?>
+	</ul>  
 </div>
