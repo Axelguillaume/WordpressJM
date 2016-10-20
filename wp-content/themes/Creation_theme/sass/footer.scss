@@ -5,6 +5,10 @@
 		width: 75%;
 		margin: 50px 0px 50px 0px;
 	}
+	p{
+			margin: 30px 0px 0px 40px;
+			color: #aaaaaa;
+		}
 	#menu_footer{
 		margin-top: 90px;
 		li{
@@ -13,6 +17,9 @@
 				text-decoration: none;
 				color: #aaaaaa;
 				margin-right: 40px;
+				&:hover{
+					color: grey;
+				}
 			}
 		}
 	}

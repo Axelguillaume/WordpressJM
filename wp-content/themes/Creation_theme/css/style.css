@@ -47,6 +47,11 @@
   margin: 50px 0px 50px 0px;
 }
 
+#footer p {
+  margin: 30px 0px 0px 40px;
+  color: #aaaaaa;
+}
+
 #footer #menu_footer {
   margin-top: 90px;
 }
@@ -59,6 +64,10 @@
   text-decoration: none;
   color: #aaaaaa;
   margin-right: 40px;
+}
+
+#footer #menu_footer li a:hover {
+  color: grey;
 }
 
 .sidebar {
