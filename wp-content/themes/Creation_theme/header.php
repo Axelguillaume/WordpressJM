@@ -36,7 +36,7 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                   </button>
-                                  <a class="navbar-brand" href="#"><img src="wp-content/themes/Creation_theme/images/logo_EXE.png" alt="" /></a>
+                                  <a class="navbar-brand" href="index.php"><img src="wp-content/themes/Creation_theme/images/logo_EXE.png" alt="logo" /></a>
                                 </div>
                                 <form class="navbar-form navbar-right">
                                     <button type="submit" class="btn"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
@@ -48,9 +48,9 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                   <ul class="nav navbar-nav navbar-left">
-                                    <li><a href="#header">Accueil</a></li>
+                                    <li><a href="index.php">Accueil</a></li>
                                     <li><a href="#skill">Qui sommes nous?</a></li>
-                                    <li><a href="#equipe">DIY</a></li>
+                                    <li><a href="article.php">DIY</a></li>
                                     <li><a href="#contact">Contact</a></li>
                                   </ul>
                                 </div><!-- /.navbar-collapse -->
