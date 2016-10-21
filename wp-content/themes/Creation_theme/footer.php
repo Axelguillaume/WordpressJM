@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-2">
-				<img id="logo_footer" src="wp-content/themes/Creation_theme/images/logo_footer.png">
+				<img id="logo_footer" src="<?php bloginfo('url'); ?>/wp-content/themes/Creation_theme/images/logo_footer.png">
 			</div>
 			<div class="col-lg-7">
 				<ul id="menu_footer">
