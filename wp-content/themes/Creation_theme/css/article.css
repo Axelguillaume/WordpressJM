@@ -1,0 +1,7 @@
+.article ul li {
+  list-style: none;
+}
+
+.article ul li a {
+  font-size: 30pt;
+}
