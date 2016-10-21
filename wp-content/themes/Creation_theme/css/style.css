@@ -107,6 +107,7 @@
   font-size: 50px;
   color: #871642;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .separation {
@@ -130,6 +131,10 @@
 
 .separation h2 {
   color: #fff;
+}
+
+.carou img {
+  width: 100%;
 }
 
 .article img {

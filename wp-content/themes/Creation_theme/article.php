@@ -13,7 +13,7 @@ Template Name: Articles
 			<div class="article">
 				<div class="col-md-10">
 					<div class="text-center">
-						<h1>Derniers articles DIY</h1>
+						<h1>Retrouvez tous nos articles ici</h1>
 						<ul>
 							<?php
 							    $recentPosts = new WP_Query();
