@@ -3,12 +3,11 @@
 		background: #fff;
 		border: none;
 		font-size : 20px;
-		padding:10px;
-		padding:0px;
+		padding-bottom: 10px;
 		li {
+
 			a{
 			color : black;
-			margin-bottom: 33px;
 			margin-top: 33px;
 				&:hover{
 				color: #871642;
@@ -21,6 +20,7 @@
 			a{
 				color : black;
 				font-weight: 800;
+
 				img{
 					width: 100px;
 					height: 89px;
