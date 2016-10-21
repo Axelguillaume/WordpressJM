@@ -61,7 +61,7 @@
                                       'after' => '',
                                       'link_before' => '',
                                       'link_after' => '',
-                                  'items_wrap' => '<ul class="nav navbar-nav navbar-right" style="padding:0 10px 0 10px">%3$s</ul>',
+                                  'items_wrap' => '<ul class="nav navbar-nav navbar-left" style="padding:0 10px 0 10px">%3$s</ul>',
                                   'depth' => '',
                                     'walker' => ''
                                   );

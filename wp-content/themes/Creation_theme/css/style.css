@@ -2,13 +2,11 @@
   background: #fff;
   border: none;
   font-size: 20px;
-  padding: 10px;
-  padding: 0px;
+  padding-bottom: 10px;
 }
 
 #header nav li a {
   color: black;
-  margin-bottom: 33px;
   margin-top: 33px;
 }
 
@@ -107,6 +105,7 @@
   font-size: 50px;
   color: #871642;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .separation {
@@ -130,6 +129,10 @@
 
 .separation h2 {
   color: #fff;
+}
+
+.carou img {
+  width: 100%;
 }
 
 .article img {
