@@ -11,10 +11,10 @@
     <link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
     <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-    <link rel="stylesheet" href="wp-content/themes/Creation_theme/css/style.css" />
+    <link rel="stylesheet" href="<?php bloginfo('url'); ?>/wp-content/themes/Creation_theme/css/style.css" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity=" sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="wp-content/themes/Creation_theme/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php bloginfo('url'); ?>/wp-content/themes/Creation_theme/font-awesome-4.6.3/css/font-awesome.min.css">
     
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
     <?php wp_head(); ?>   <?php wp_get_archives('type=monthly&format=link'); ?> <?php //comments_popup_script(); <?php wp_head(); ?>
@@ -36,7 +36,7 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                   </button>
-                                  <a class="navbar-brand" href="index.php"><img src="wp-content/themes/Creation_theme/images/logo_EXE.png" alt="logo" /></a>
+                                  <a class="navbar-brand" href="index.php"><img src="<?php bloginfo('url'); ?>/wp-content/themes/Creation_theme/images/logo_EXE.png" alt="logo" /></a>
                                 </div>
                                 <form class="navbar-form navbar-right">
                                     <button type="submit" class="btn"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
@@ -47,12 +47,26 @@
 
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                  <ul class="nav navbar-nav navbar-left">
-                                    <li><a href="index.php">Accueil</a></li>
-                                    <li><a href="#skill">Qui sommes nous?</a></li>
-                                    <li><a href="article.php">Articles</a></li>
-                                    <li><a href="#contact">Contact</a></li>
-                                  </ul>
+                                  <?php $defaults = array(
+                                      'theme_location' => '',
+                                      'menu' => 'menu-general',
+                                      'container' => '',
+                                      'container_class' => 'navbar navbar-default navbar-fixed-top',
+                                      'container_id' => '',
+                                      'menu_class' => 'menu',
+                                      'menu_id' => '',
+                                      'echo' => true,
+                                      'fallback_cb' => 'wp_page_menu',
+                                      'before' => '',
+                                      'after' => '',
+                                      'link_before' => '',
+                                      'link_after' => '',
+                                  'items_wrap' => '<ul class="nav navbar-nav navbar-right" style="padding:0 10px 0 10px">%3$s</ul>',
+                                  'depth' => '',
+                                    'walker' => ''
+                                  );
+                                  wp_nav_menu( $defaults );
+                                  ?>
                                 </div><!-- /.navbar-collapse -->
                               </div><!-- /.container-fluid -->
                             </nav>
@@ -77,19 +91,19 @@
                       <!-- Wrapper for slides -->
                       <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                          <img src="wp-content/themes/Creation_theme/images/slider1.jpg" alt="...">
+                          <img src="<?php bloginfo('url'); ?>/wp-content/themes/Creation_theme/images/slider1.jpg" alt="...">
                           <div class="carousel-caption">
                             <h1>Jacqueline & Michelle</h1>
                           </div>
                         </div>
                         <div class="item">
-                          <img src="wp-content/themes/Creation_theme/images/slider2.jpg" alt="...">
+                          <img src="<?php bloginfo('url'); ?>/wp-content/themes/Creation_theme/images/slider2.jpg" alt="...">
                           <div class="carousel-caption">
                             <h1>Jacqueline & Michelle</h1>
                           </div>
                         </div>
                         <div class="item">
-                          <img src="wp-content/themes/Creation_theme/images/slider3.jpg" alt="...">
+                          <img src="<?php bloginfo('url'); ?>/wp-content/themes/Creation_theme/images/slider3.jpg" alt="...">
                           <div class="carousel-caption">
                             <h1>Jacqueline & Michelle</h1>
                           </div>

@@ -35,19 +35,19 @@
 			<div class="col-md-10 col-md-offset-1">
 				<div class="col-md-4">
 					<div class="text-center">
-						<img src="wp-content/themes/Creation_theme/images/1230.png" alt="" class="img-responsive">
+						<img src="<?php bloginfo('url'); ?>/wp-content/themes/Creation_theme/images/1230.png" alt="" class="img-responsive">
 						<h2>Vidéo Réalisées</h1>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="text-center">
-						<img src="wp-content/themes/Creation_theme/images/120.png" alt="" class="img-responsive">
+						<img src="<?php bloginfo('url'); ?>/wp-content/themes/Creation_theme/images/120.png" alt="" class="img-responsive">
 						<h2>Paires de Chaussures</h1>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="text-center">
-						<img src="wp-content/themes/Creation_theme/images/50000.png" alt="" class="img-responsive">
+						<img src="<?php bloginfo('url'); ?>/wp-content/themes/Creation_theme/images/50000.png" alt="" class="img-responsive">
 						<h2>Followers</h1>
 					</div>
 				</div>
@@ -55,11 +55,10 @@
 		</div>
 	</div>
 
-	<?php get_sidebar(); ?>
 	<?php get_footer(); ?>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="wp-content/themes/Creation_theme/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <script src="wp-content/themes/Creation_theme/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="<?php bloginfo('url'); ?>/wp-content/themes/Creation_theme/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="<?php bloginfo('url'); ?>/wp-content/themes/Creation_theme/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 </body> 
 </html>

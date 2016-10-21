@@ -1,9 +1,8 @@
 <?php
 /*
-Template Name: Articles
+Template Name: Quisommesnous?
 */
 ?>
-
 	<?php get_header(); ?> <!-- ouvrir header.php --> 
 	<div id="content"> 
 		<?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?> 
