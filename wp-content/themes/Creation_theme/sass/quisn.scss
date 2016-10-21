@@ -1,0 +1,40 @@
+.row{
+	margin-top: 30px;
+}
+
+.separation-quisn{
+	margin: 50px;
+	width: 100%;
+    padding: 50px 0;
+    background: url(../images/chaussure.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    img{
+    	width: 50%;
+    	height: 50%;
+    	margin: 0 auto;
+    }
+    p, h1 {
+    	color: #fff !important;
+    	margin-bottom: 40px;
+    	
+    }
+}
+
+#equipe {
+	h2,h3{
+		color: #871642;
+	}
+	img{
+		margin: 0 auto;
+	}
+	i{
+		margin-left: 10px;
+		color: #871642;
+		margin-top: 10px;
+	}
+}

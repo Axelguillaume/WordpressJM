@@ -54,6 +54,15 @@
 			</div>
 		</div>
 	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="text-center">
+					<h1>Derniers Tutos Ajoutés</h1>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<?php get_footer(); ?>
 	</div>
